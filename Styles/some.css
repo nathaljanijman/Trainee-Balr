@@ -9,3 +9,9 @@ body {
   background-image: url('http://blooooming.com/blog/wp-content/uploads/2016/10/14702371_1147534258658098_2328103908563047792_n.jpg');
   background-size: cover;
 }
+div.menu{
+  background-color: black;
+}
+div.menu a{
+color: white;
+}
