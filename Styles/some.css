@@ -14,6 +14,7 @@ body {
   background-repeat: no-repeat;
   transform: scale(1.05);
   transition: transform 2s ease-in-out;
+  background-position: bottom center;
 }
 
 .jumbotron.zoom {
@@ -25,6 +26,36 @@ body {
   text-shadow: 2px 2px 4px #000000;
   margin-top: 250px;
 }
+
+.main {
+  position: relative;
+  top: 100px;
+  text-align: center;
+}
+
+.main h1 {
+  color: #333;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 70px;
+  margin-top: 190px;
+  margin-bottom: 80px;
+  text-transform: uppercase;
+}
+
+.btn-main {
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 20px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+
 
 .logobalr {
   background-image: url('http://www.40beats.nl/images/logos/BALR-logo-site_wit.png');
