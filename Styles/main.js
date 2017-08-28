@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  $('.jumbotron').addClass('zoom');
+  $('.carousel-inner').addClass('zoom');
 });
 
 $(document).ready(function() {
