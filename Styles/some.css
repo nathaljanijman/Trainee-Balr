@@ -3,16 +3,26 @@ body {
   font-family: 'Raleway' !important;
 }
 
+h3 {
+  display: inline-block;
+  padding: 10px;
+  background: black;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
 
 .carousel-inner{
   display: block;
   position: relative;
   text-align: center;
-  width: 100%;
+  background-position: center;
+  max-width: 100%;
   background-repeat: no-repeat;
   transform: scale(1.05);
   transition: transform 2s ease-in-out;
   background-position: bottom center;
+  height: auto;
 }
 
 .carousel-inner.zoom {
@@ -25,15 +35,13 @@ body {
   margin-top: 250px;
 }
 
-.container {
-  margin: 0;
-  width: 100% !important;
-}
-
 .carousel1 {
-  background-image: url("http://whatmatters.be/wp-content/uploads/2016/12/TMG_BALR4.jpg");
+  background-image: url("https://s3-eu-west-1.amazonaws.com/by433-core-production/default/0002/89/5adc00894dfaaae70288a82899f82c0eea9d2bfe.jpeg");
   height: 500px;
   background-size: cover;
+  min-width: 100%;
+  max-width: 200px;
+  height: 500px;
 }
 
 .carousel2 {
