@@ -1,0 +1,26 @@
+{
+  "name": "trainee-balr",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathaljanijman/Trainee-Balr.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathaljanijman/Trainee-Balr/issues"
+  },
+  "homepage": "https://github.com/nathaljanijman/Trainee-Balr#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.3.2",
+    "gulp-less-import": "^1.0.0",
+    "gulp-uglify": "^3.0.0"
+  }
+}
