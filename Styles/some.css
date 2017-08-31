@@ -265,9 +265,14 @@ li a:active {
 
 .supporting .col {
   float: left;
-  width: 33%;
   font-family: 'Raleway', sans-serif;
   text-align: center;
+  width: 33%
+  }
+
+.hideme{
+  opacity: 0;
+  margin-top: 30px;
 }
 
 .supporting img {
