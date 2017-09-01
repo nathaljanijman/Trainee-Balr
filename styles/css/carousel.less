@@ -1,0 +1,50 @@
+.trainee-balr {
+  .carousel-inner{
+    display: block;
+    position: relative;
+    text-align: center;
+    background-position: center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    transform: scale(1.05);
+    transition: transform 2s ease-in-out;
+    background-position: bottom center;
+    height: auto;
+
+    &.zoom {
+      transform: scale(1);
+    }
+
+    h1 {
+      color: white;
+      text-shadow: 2px 2px 4px #000000;
+      margin-top: 250px;
+    }
+  }
+
+  .carousel-indicators li {
+    padding-left: 0;
+    margin: 5px;
+  }
+
+  .carousel1 {
+    background-image: url("../../images/carousel1.png");
+    height: 500px;
+    background-size: cover;
+    min-width: 100%;
+    max-width: 200px;
+    height: 500px;
+  }
+
+  .carousel2 {
+    background-image: url("../../images/carousel2.png");
+    height: 500px;
+    background-size: cover;
+  }
+
+  .carousel3 {
+    background-image: url("../../images/carousel3.png");
+    height: 500px;
+    background-size: cover;
+  }
+}
