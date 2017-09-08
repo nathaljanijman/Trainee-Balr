@@ -25,3 +25,26 @@ $(document).ready(function() {
         });
     });
 });
+var courses = angular.module("coursesApp",[])
+
+courses.controller("coursesController", ['$scope', function($scope){
+
+$scope.courseprops = [
+  {title:"html",
+  description:"learn the basics of the core html language"},
+
+  {title:"css",
+  description:"learn all about styling"},
+
+  {title:"javascript",
+  description:"get familiar with javascript coding"},
+
+  {title:"angularjs",
+  description:"make your website dynamic with Angular"},
+
+  {title:"php",
+  description:"ready for the next step?"},
+
+  {title:"symfony",
+  description:"build a whole symfony website, let's do this!"}
+]}]);
