@@ -31,128 +31,170 @@ courses.controller("coursesController", ['$scope', function($scope){
 
 $scope.courseprops = [
   {title:"html",
-  description:"learn the basics of the core html language"},
+  description:"learn the basics of the core html language",
+  image:"devicon-html5-plain"},
 
   {title:"css",
-  description:"learn all about styling"},
+  description:"learn all about styling",
+  image:"devicon-css3-plain"},
 
   {title:"colors",
-  description:""},
+  description:"",
+  image:"fa fa-paint-brush"},
 
   {title:"icons",
-  description:""},
+  description:"",
+  image:"fa fa-info-circle"},
 
   {title:"svg",
-  description:""},
+  description:"",
+  image:"devicon-devicon-plain"},
 
   {title:"javascript",
-  description:"get familiar with javascript coding"},
+  description:"get familiar with javascript coding",
+  image:"devicon-javascript-plain"},
 
   {title:"json",
-  description:""},
+  description:"",
+  image:"devicon-javascript-plain"},
 
   {title:"jquery",
-  description:""},
+  description:"",
+  image:"devicon-jquery-plain"},
 
   {title:"github",
-  description:""},
+  description:"",
+  image:"devicon-github-plain"},
 
   {title:"git",
-  description:""},
+  description:"",
+  image:"devicon-git-plain"},
 
   {title:"npm",
-  description:""},
+  description:"",
+  image:"fa fa-cube"},
 
   {title:"es6",
-  description:""},
+  description:"",
+  image:"fa fa-bolt"},
 
   {title:"typescript",
-  description:""},
+  description:"",
+  image:"devicon-typescript-plain"},
 
   {title:"gulp",
-  description:""},
+  description:"",
+  image:"devicon-gulp-plain"},
 
   {title:"angularjs",
-  description:"make your website dynamic with Angular"},
+  description:"make your website dynamic with Angular",
+  image:"devicon-angularjs-plain"},
 
   {title:"karma",
-  description:""},
+  description:"",
+  image:"fa fa-fire"},
 
   {title:"protractor",
-  description:""},
+  description:"",
+  image:"devicon-protractor-plain"},
 
   {title:"composer",
-  description:""},
+  description:"",
+  image:"fa fa-braille"},
 
   {title:"sql",
-  description:""},
+  description:"",
+  image:"fa fa-database"},
 
   {title:"php",
-  description:"ready for the next step?"},
+  description:"ready for the next step?",
+  image:"devicon-php-plain"},
 
   {title:"symfony",
-  description:"build a whole symfony website, let's do this!"},
+  description:"build a whole symfony website, let's do this!",
+  image:"devicon-symfony-original"},
 
   {title:"silex",
-  description:""},
+  description:"",
+  image:"fa fa-scribd"},
 
   {title:"laravel",
-  description:""},
+  description:"",
+  image:"devicon-laravel-plain"},
 
   {title:"php unit",
-  description:""},
+  description:"",
+  image:"devicon-php-plain"},
 
   {title:"php spec",
-  description:""},
+  description:"",
+  image:"devicon-php-plain"},
 
   {title:"behat",
-  description:""},
+  description:"",
+  image:"fa fa-behance"},
 
   {title:"docker",
-  description:""},
+  description:"",
+  image:"devicon-docker-plain"},
 
-  {title:"vegrant",
-  description:""},
+  {title:"vagrant",
+  description:"",
+  image:"fa fa-vimeo"},
 
   {title:"apache",
-  description:""},
+  description:"",
+  image:"devicon-apache-plain"},
 
   {title:"nginx",
-  description:""},
+  description:"",
+  image:"devicon-nginx-original"},
 
   {title:"heroku",
-  description:""},
+  description:"",
+  image:"devicon-heroku-plain"},
 
   {title:"s3",
-  description:""},
+  description:"",
+  image:"devicon-amazonwebservices-original"},
 
   {title:"bootstrap",
-  description:""},
+  description:"",
+  image:"devicon-bootstrap-plain"},
 
   {title:"bower",
-  description:""},
+  description:"",
+  image:"devicon-bower-plain"},
 
   {title:"less",
-  description:""},
+  description:"",
+  image:"devicon-less-plain-wordmark"},
 
   {title:"nodejs",
-  description:""},
+  description:"",
+  image:"devicon-nodejs-plain"},
 
   {title:"reactjs",
-  description:""},
+  description:"",
+  image:"devicon-react-original"},
 
   {title:"amp",
-  description:""},
+  description:"",
+  image:"fa fa-font"},
 
   {title:"http",
-  description:""},
+  description:"",
+  image:"fa fa-chrome"},
 
   {title:"scrum",
-  description:""},
+  description:"",
+  image:"fa fa-comments-o"},
 
   {title:"typing",
-  description:""},
+  description:"",
+  image:"fa fa-keyboard-o"},
 
   {title:"assignments",
-  description:""}
+  description:"",
+  image:"fa fa-book"}
 ]}]);

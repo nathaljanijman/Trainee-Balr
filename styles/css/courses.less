@@ -7,15 +7,48 @@
       overflow: scroll;
       height: 761px;
 
+      h1 {
+        margin-left: 30px;
+      }
+
+      .coursesearch {
+        position: absolute;
+        right: 30px;
+        top: 30px;
+        border-top-width: 0;
+        border-left-width: 0;
+        border-right-width: 0;
+      }
+
       .col-sm-3 {
+        background-color: none;
         display: inline-block;
         position: relative;
         margin: auto;
+        transition: background-color 0.5s, color 0.5s;
 
         .coursebox {
-          width: 80%;
-          height: 300px;
-          float: left;
+          height: 150px;
+          margin-top: 50px;
+          margin-bottom: 50px;
+
+          i {
+            font-size: 100px;
+            margin-top: 0;
+            margin-bottom: 0;
+            transition: font-size 0.2s, margin-top 0.2s, margin-bottom 0.2s;
+          }
+        }
+
+        &:hover {
+          background-color: gainsboro;
+          color: white;
+
+          i {
+            font-size: 110px;
+            margin-top: -2px;
+            margin-bottom: 2px;
+          }
         }
       }
     }
@@ -34,11 +67,13 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 580px) {
   .trainee-balr {
     .courses {
-      .outer-coursebox {
-        padding-left: 10%;
+      .courses-row {
+        .coursesearch {
+          display: none;
+        }
       }
     }
   }
@@ -49,7 +84,6 @@
     .courses {
       .outer-coursebox {
         width: 100%;
-        padding-left: 25%;
       }
     }
   }
