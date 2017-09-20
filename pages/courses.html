@@ -6,6 +6,7 @@
   <link rel="stylesheet" type="text/css" href="../styles/css/trainee.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   <script src="https://use.fontawesome.com/6e3154f283.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -53,12 +54,14 @@
   </div>
 
   <div class="courses">
-    <div class="col-xs-8 courses-row text-center" ng-controller="coursesController">
+    <div class="col-xs-8 courses-row" ng-controller="coursesController">
       <h1>Courses</h1>
-      <div class="col-xs-6 col-sm-3 outer-coursebox" ng-repeat="course in courseprops">
+      <input type="text" placeholder="Search Courses" ng-model="search" class="ng-valid ng-dirty coursesearch">
+      <div class="col-xs-6 col-sm-3 outer-coursebox text-center" ng-repeat="course in courseprops | filter:search">
         <div class="coursebox">
+          <i class={{course.image}}></i>
+          <hr class="line" />
           <h3>{{course.title}}</h3>
-          <p>{{course.description}}</p>
         </div>
       </div>
     </div>
