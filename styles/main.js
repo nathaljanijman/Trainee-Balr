@@ -36,15 +36,123 @@ $scope.courseprops = [
   {title:"css",
   description:"learn all about styling"},
 
+  {title:"colors",
+  description:""},
+
+  {title:"icons",
+  description:""},
+
+  {title:"svg",
+  description:""},
+
   {title:"javascript",
   description:"get familiar with javascript coding"},
 
+  {title:"json",
+  description:""},
+
+  {title:"jquery",
+  description:""},
+
+  {title:"github",
+  description:""},
+
+  {title:"git",
+  description:""},
+
+  {title:"npm",
+  description:""},
+
+  {title:"es6",
+  description:""},
+
+  {title:"typescript",
+  description:""},
+
+  {title:"gulp",
+  description:""},
+
   {title:"angularjs",
   description:"make your website dynamic with Angular"},
+
+  {title:"karma",
+  description:""},
+
+  {title:"protractor",
+  description:""},
+
+  {title:"composer",
+  description:""},
+
+  {title:"sql",
+  description:""},
 
   {title:"php",
   description:"ready for the next step?"},
 
   {title:"symfony",
-  description:"build a whole symfony website, let's do this!"}
+  description:"build a whole symfony website, let's do this!"},
+
+  {title:"silex",
+  description:""},
+
+  {title:"laravel",
+  description:""},
+
+  {title:"php unit",
+  description:""},
+
+  {title:"php spec",
+  description:""},
+
+  {title:"behat",
+  description:""},
+
+  {title:"docker",
+  description:""},
+
+  {title:"vegrant",
+  description:""},
+
+  {title:"apache",
+  description:""},
+
+  {title:"nginx",
+  description:""},
+
+  {title:"heroku",
+  description:""},
+
+  {title:"s3",
+  description:""},
+
+  {title:"bootstrap",
+  description:""},
+
+  {title:"bower",
+  description:""},
+
+  {title:"less",
+  description:""},
+
+  {title:"nodejs",
+  description:""},
+
+  {title:"reactjs",
+  description:""},
+
+  {title:"amp",
+  description:""},
+
+  {title:"http",
+  description:""},
+
+  {title:"scrum",
+  description:""},
+
+  {title:"typing",
+  description:""},
+
+  {title:"assignments",
+  description:""}
 ]}]);
