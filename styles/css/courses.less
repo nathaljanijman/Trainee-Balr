@@ -31,6 +31,7 @@
           height: 150px;
           margin-top: 50px;
           margin-bottom: 50px;
+          cursor: pointer;
 
           i {
             font-size: 100px;
@@ -56,12 +57,22 @@
     .col-xs-4 {
       padding-right: unset;
 
-      .coursedescription {
+      .coursedescriptionbox {
         position: relative;
         display: block;
         width: 100%;
         background: gainsboro;
         height: 761px;
+        max-height: 761px;
+        overflow: hidden;
+
+        .coursedescription {
+          display: none;
+
+          &.active {
+            display: block;
+          }
+        }
       }
     }
   }

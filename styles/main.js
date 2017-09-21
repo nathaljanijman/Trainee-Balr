@@ -39,11 +39,11 @@ $scope.courseprops = [
   image:"devicon-css3-plain"},
 
   {title:"colors",
-  description:"",
+  description:"test3",
   image:"fa fa-paint-brush"},
 
   {title:"icons",
-  description:"",
+  description:"test4",
   image:"fa fa-info-circle"},
 
   {title:"svg",
@@ -196,5 +196,11 @@ $scope.courseprops = [
 
   {title:"assignments",
   description:"",
-  image:"fa fa-book"}
-]}]);
+  image:"fa fa-book"}]
+
+  $scope.activeCourse = $scope.courseprops[0];
+
+  $scope.setActive = function(course) {
+  $scope.activeCourse = course
+ }
+}]);
