@@ -31,12 +31,23 @@ courses.controller("coursesController", ['$scope', function($scope){
 
 $scope.courseprops = [
   {title:"html",
-  description:"learn the basics of the core html language",
-  image:"devicon-html5-plain"},
+  description:"Hypertext Markup Language (HTML) is the standard markup language for creating web pages and web applications. With Cascading Style Sheets (CSS) and JavaScript it forms a triad of cornerstone technologies for the World Wide Web.[2] Web browsers receive HTML documents from a web server or from local storage and render them into multimedia web pages.",
+  image:"devicon-html5-plain",
+  links: [
+    {title:"w3schools",
+    url:"https://www.w3schools.com/html/default.asp"}
+  ]},
 
   {title:"css",
   description:"learn all about styling",
-  image:"devicon-css3-plain"},
+  image:"devicon-css3-plain",
+  links: [
+    {title:"w3schools",
+    url:"https://www.w3schools.com/html/default.asp"},
+
+    {title:"w3schools",
+    url:"https://www.w3schools.com/html/default.asp"}
+  ]},
 
   {title:"colors",
   description:"test3",
