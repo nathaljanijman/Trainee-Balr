@@ -7,6 +7,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
   <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Damion" rel="stylesheet">
   <script src="https://use.fontawesome.com/6e3154f283.js"></script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
@@ -56,7 +57,7 @@
   <div class="courses" ng-controller="coursesController">
     <div class="col-xs-8 courses-row">
       <h1>Courses</h1>
-      <input type="text" placeholder="Search Courses" ng-model="search" class="ng-valid ng-dirty coursesearch">
+      <input type="text" placeholder="Search Courses" ng-model="search.title" class="ng-valid ng-dirty coursesearch">
       <div class="col-xs-6 col-sm-3 outer-coursebox text-center" ng-repeat="course in courseprops | filter:search" ng-click="setActive(course)">
         <div class="coursebox">
           <i class={{course.image}}></i>
@@ -70,12 +71,18 @@
         <div class="coursedescription" ng-repeat="course in courseprops" ng-class="{active : activeCourse === course}">
           <h1>{{course.title}}</h1>
           <p>{{course.description}}</p>
+          <h3>Course links</h3>
+          <div class="courselink" ng-repeat="link in course.links">
+          <a href={{link.url}} target="_blank" class="courselinkbutton btn btn-default btn-lg btn-block">{{link.title}}</a>
         </div>
+      </div>
+      <div class="footercoursedescription">
+        <p>Made by <a href="/aboutus.html">BALR. trainees</a></p>
+        <p>Copyright © 2017 BALR.</p>
+        <p>Final font build with Icomoon appAll product names, logos, and brandsare property of their respective owners. All company, product and service names used in this website are for identification purposes only. Use of these names, logos, and brands does not imply endorsement.</p>
       </div>
     </div>
   </div>
-
-
   <footer class="nb-footer">
     <div class="container">
       <div class="about">
