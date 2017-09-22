@@ -66,6 +66,14 @@
         max-height: 761px;
         overflow: hidden;
 
+        .footercoursedescription {
+          position: absolute;
+          bottom: 20px;
+          text-align: center;
+          margin: 1.5rem;
+          font-size: 12px;
+        }
+
         .coursedescription {
           display: none;
           padding: 0 2rem;
@@ -84,7 +92,12 @@
             font-size: 50px;
 
           }
-
+          
+          h3 {
+            font-family: "Damion", sans-serif;
+            font-size: 35px;
+            text-align: center;
+          }
           p {
             font-weight: 400;
             font-size: 15px;
@@ -103,7 +116,12 @@
               color: white;
               opacity: .8;
             }
-
+            &:active{
+            border: 1px black solid;
+            background-color: #333;
+            color: white;
+            opacity: .8;
+            }
           }
         }
       }
